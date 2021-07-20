@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.ListaTelefonica" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/Wild_Blue_Yonder</item>
+        <item name="colorPrimaryVariant">@color/Slate_Blue</item>
+        <item name="colorOnPrimary">@color/Carbon_Grey</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/Carbon_Grey</item>
+        <item name="colorSecondaryVariant">@color/Bronco</item>
+        <item name="colorOnSecondary">@color/Wild_Blue_Yonder</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.ListaTelefonica.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.ListaTelefonica.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.ListaTelefonica.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>
